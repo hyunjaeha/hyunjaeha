@@ -68,8 +68,7 @@ flowchart TD
     A --> D[국립중앙박물관 리디자인]
 
     B --> B1[반응형 웹]
-    B --> B2[개인 브랜딩]
-    B --> B3[프로젝트 소개]
+    B --> B2[프로젝트 소개]
 
     C --> C1[기분 기반 소비 기록]
     C --> C2[모바일]
@@ -86,7 +85,7 @@ flowchart TD
     classDef museum fill:#FEF3C7,color:#92400E,stroke:#FBBF24;
 
     class A root;
-    class B,B1,B2,B3 portfolio;
+    class B,B1,B2 portfolio;
     class C,C1,C2,C3,C4 moodget;
     class D,D1,D2,D3 museum;
 ```
