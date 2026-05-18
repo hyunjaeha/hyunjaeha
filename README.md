@@ -57,7 +57,6 @@
 | **Moodget** | 반응형 앱/웹 | 기분 기반 소비 기록 · 감정별 소비 패턴 확인 |
 | **국립중앙박물관 리디자인** | 웹 리디자인 | 전시 콘텐츠 강조 · 메뉴 구조 개선 · 시각적 아이덴티티 |
 
----
 ## 프로젝트 구조
 
 ```mermaid
@@ -86,22 +85,11 @@ flowchart TD
     classDef portfolio fill:#E0F2FE,color:#075985,stroke:#38BDF8;
     classDef moodget fill:#FCE7F3,color:#9D174D,stroke:#F472B6;
     classDef museum fill:#FEF3C7,color:#92400E,stroke:#FBBF24;
-    classDef detail fill:#F9FAFB,color:#374151,stroke:#D1D5DB;
 
     class A root;
     class B,B1,B2,B3 portfolio;
     class C,C1,C2,C3,C4 moodget;
     class D,D1,D2,D3,D4 museum;
+```
 
 ---
-
-## 디자인 프로세스
-
-```mermaid
-flowchart LR
-    A[🔍 발견] --> B[📌 정의]
-    B --> C[💡 아이디어]
-    C --> D[🎨 디자인]
-    D --> E[🧩 프로토타입]
-    E --> F[🚀 개선]
-```
