@@ -58,27 +58,40 @@
 | **국립중앙박물관 리디자인** | 웹 리디자인 | 전시 콘텐츠 강조 · 메뉴 구조 개선 · 시각적 아이덴티티 |
 
 ---
-
 ## 프로젝트 구조
 
 ```mermaid
-mindmap
-  root((프로젝트))
-    포트폴리오 웹사이트
-      반응형 웹
-      개인 브랜딩
-      프로젝트 소개
-    Moodget
-      기분 기반 소비 기록
-      모바일
-      테블릿
-      데스크탑
-    국립중앙박물관 리디자인
-      웹 리디자인
-      전시 콘텐츠 강조
-      메뉴 구조 개선
-      시각적 아이덴티티
-```
+flowchart TD
+    A[프로젝트]
+
+    A --> B[포트폴리오 웹사이트]
+    A --> C[Moodget]
+    A --> D[국립중앙박물관 리디자인]
+
+    B --> B1[반응형 웹]
+    B --> B2[개인 브랜딩]
+    B --> B3[프로젝트 소개]
+
+    C --> C1[기분 기반 소비 기록]
+    C --> C2[모바일]
+    C --> C3[테블릿]
+    C --> C4[데스크탑]
+
+    D --> D1[웹 리디자인]
+    D --> D2[전시 콘텐츠 강조]
+    D --> D3[메뉴 구조 개선]
+    D --> D4[시각적 아이덴티티]
+
+    classDef root fill:#111827,color:#ffffff,stroke:#111827;
+    classDef portfolio fill:#E0F2FE,color:#075985,stroke:#38BDF8;
+    classDef moodget fill:#FCE7F3,color:#9D174D,stroke:#F472B6;
+    classDef museum fill:#FEF3C7,color:#92400E,stroke:#FBBF24;
+    classDef detail fill:#F9FAFB,color:#374151,stroke:#D1D5DB;
+
+    class A root;
+    class B,B1,B2,B3 portfolio;
+    class C,C1,C2,C3,C4 moodget;
+    class D,D1,D2,D3,D4 museum;
 
 ---
 
