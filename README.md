@@ -55,7 +55,7 @@
 |---|---|---|
 | **포트폴리오 웹사이트** | 반응형 웹 | 개인 브랜딩 · 프로젝트 소개 · 반응형 레이아웃 |
 | **Moodget** | 반응형 앱/웹 | 기분 기반 소비 기록 · 감정별 소비 패턴 확인 |
-| **국립중앙박물관 리디자인** | 웹 리디자인 | 전시 콘텐츠 강조 · 메뉴 구조 개선 · 시각적 아이덴티티 |
+| **국립중앙박물관 리디자인** | 웹 리디자인 | 전시 콘텐츠 강조  · 시각적 아이덴티티 |
 
 ## 프로젝트 구조
 
@@ -78,8 +78,7 @@ flowchart TD
 
     D --> D1[웹 리디자인]
     D --> D2[전시 콘텐츠 강조]
-    D --> D3[메뉴 구조 개선]
-    D --> D4[시각적 아이덴티티]
+    D --> D3[시각적 아이덴티티]
 
     classDef root fill:#111827,color:#ffffff,stroke:#111827;
     classDef portfolio fill:#E0F2FE,color:#075985,stroke:#38BDF8;
@@ -89,7 +88,7 @@ flowchart TD
     class A root;
     class B,B1,B2,B3 portfolio;
     class C,C1,C2,C3,C4 moodget;
-    class D,D1,D2,D3,D4 museum;
+    class D,D1,D2,D3 museum;
 ```
 
 
