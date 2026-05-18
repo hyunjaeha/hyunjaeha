@@ -82,20 +82,6 @@ mindmap
 
 ---
 
-## Moodget 반응형 구조
-
-```mermaid
-flowchart LR
-    A[모바일] --> B[테블릿]
-    B --> C[데스크탑]
-
-    A --> A1[빠른 소비 기록]
-    B --> B1[확장형 정보 배치]
-    C --> C1[대시보드형 화면]
-```
-
----
-
 ## 디자인 프로세스
 
 ```mermaid
@@ -106,37 +92,3 @@ flowchart LR
     D --> E[🧩 프로토타입]
     E --> F[🚀 개선]
 ```
-
-| 단계 | 핵심 |
-|---|---|
-| 발견 | 사용자와 문제 파악 |
-| 정의 | 목표와 방향 정리 |
-| 아이디어 | 해결 방법 탐색 |
-| 디자인 | 화면과 구조 설계 |
-| 프로토타입 | 사용 흐름 검증 |
-| 개선 | 피드백 반영 |
-
----
-
-## GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_ID&show_icons=true&theme=default)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_ID&layout=compact)
-
----
-
-## 연락처
-
-| 채널 | 링크 |
-|---|---|
-| Email | your-email@example.com |
-| Portfolio | https://your-portfolio.com |
-| Behance | https://behance.net/your-id |
-| LinkedIn | https://linkedin.com/in/your-id |
-
----
-
-## 한 줄 소개
-
-**보기 좋은 화면보다, 사용하기 쉬운 경험을 먼저 생각합니다.**
