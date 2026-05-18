@@ -92,4 +92,16 @@ flowchart TD
     class D,D1,D2,D3,D4 museum;
 ```
 
+
+## 디자인 프로세스
+
+```mermaid
+flowchart LR
+    A[🔍 발견] --> B[📌 정의]
+    B --> C[💡 아이디어]
+    C --> D[🎨 디자인]
+    D --> E[🧩 프로토타입]
+    E --> F[🚀 개선]
+```
+
 ---
